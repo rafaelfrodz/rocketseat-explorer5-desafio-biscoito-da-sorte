@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+  }
+
+.hide {
+    display: none;
+}
+
+body {
+    background: linear-gradient(45deg, #190361 0%, #BB00FF 100%);
+    height: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.screen1, .screen2 {
+    box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.8);
+    border-radius: .5rem;
+    background: #FFFFFF;
+    width: 42.8rem;
+    margin: 23.9rem auto;
+    align-items: center;
+    padding: 4.8rem 6.4rem 6.4rem; 
+    text-align: center;
+}
+
+h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 2.9rem;
+    color: #34355B;
+    text-align: center;
+}
+
+/*Screen 1*/
+
+.screen1 p {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.5rem;
+    color: #34355B;
+    margin: 1.4rem 0 2rem;
+    
+}
+
+/*Screen 2*/
+
+.screen2 p {
+    font-family: 'Dancing Script', sans-serif;
+    font-weight: 400;
+    font-size: 2.4rem;
+    line-height: 2.9rem;
+    color: #000000;
+}
+
+.card {
+    width: 29.3rem;
+    padding: 1rem;
+    margin-top: 1.7rem;
+    background: #E4EDF1;
+    box-shadow: 2px 2px 2px rgba(85, 85, 85, 0.5);
+}
+
+#btnOpen {
+    border: none;
+    padding: 1.6rem;
+    background: #FF9500;
+    border-radius: .4rem;
+
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2rem;
+
+    color: #FFFFFF;
+}
